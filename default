@@ -3,10 +3,6 @@ server {
     listen [::]:80;
     server_name _;
 
-    Access-Control-Allow-Origin: *
-    Access-Control-Allow-Methods: POST,GET,PUT,DELETE
-    Access-Control-Allow-Headers: Authorization, Lang
-
     try_files index.html @proxy;
 
     location @proxy {
