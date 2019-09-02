@@ -1,6 +1,6 @@
 # mo_dev_nginx
 
-FROM nginx:1.17.2
+FROM nginx:1.17.3
 
 EXPOSE 80
 RUN mkdir -p /etc/nginx/sites-available
